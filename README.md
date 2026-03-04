@@ -1,5 +1,119 @@
 
+# Loan Approval Prediction (Imbalanced Classification)
+
+This project implements a complete machine learning pipeline for predicting loan approval decisions using applicant financial and demographic data. The task focuses on binary classification under class imbalance, emphasizing the importance of evaluation metrics beyond accuracy.
+
+The repository includes:
+- Logistic Regression (from scratch)
+- Logistic Regression (scikit-learn)
+- Decision Tree classifier
+- Imbalance handling using SMOTE
+- Comparative evaluation using precision, recall, F1-score, and confusion matrices
+
 ---
+
+## 📌 Problem Statement
+
+Given applicant information such as income, credit score, education level, and asset values, the goal is to predict whether a loan application should be:
+
+- **Approved (1)**
+- **Rejected (0)**
+
+This mirrors real-world credit risk assessment problems commonly faced by banks and fintech organizations.
+
+---
+
+## 📂 Dataset Overview
+
+Typical features include:
+- Education level
+- Self-employment status
+- Annual income
+- Loan amount and loan term
+- CIBIL (credit) score
+- Asset values (residential, commercial, luxury, bank)
+- Target variable: `loan_status` (Approved / Rejected)
+
+The dataset is **imbalanced**, with more approved loans than rejected ones.
+
+---
+
+## 🧠 ML Concepts Demonstrated
+
+- Supervised learning (binary classification)
+- Handling imbalanced datasets
+- Gradient descent–based optimization
+- Feature scaling for stable convergence
+- Model comparison and evaluation
+- Business-relevant performance metrics
+
+---
+
+## 🔧 Project Structure
+# Loan Approval Prediction (Imbalanced Classification)
+
+This project implements a complete machine learning pipeline for predicting loan approval decisions using applicant financial and demographic data. The task focuses on binary classification under class imbalance, emphasizing the importance of evaluation metrics beyond accuracy.
+
+The repository includes:
+- Logistic Regression (from scratch)
+- Logistic Regression (scikit-learn)
+- Decision Tree classifier
+- Imbalance handling using SMOTE
+- Comparative evaluation using precision, recall, F1-score, and confusion matrices
+
+---
+
+## 📌 Problem Statement
+
+Given applicant information such as income, credit score, education level, and asset values, the goal is to predict whether a loan application should be:
+
+- **Approved (1)**
+- **Rejected (0)**
+
+This mirrors real-world credit risk assessment problems commonly faced by banks and fintech organizations.
+
+---
+
+## 📂 Dataset Overview
+
+Typical features include:
+- Education level
+- Self-employment status
+- Annual income
+- Loan amount and loan term
+- CIBIL (credit) score
+- Asset values (residential, commercial, luxury, bank)
+- Target variable: `loan_status` (Approved / Rejected)
+
+The dataset is **imbalanced**, with more approved loans than rejected ones.
+
+---
+
+## 🧠 ML Concepts Demonstrated
+
+- Supervised learning (binary classification)
+- Handling imbalanced datasets
+- Gradient descent–based optimization
+- Feature scaling for stable convergence
+- Model comparison and evaluation
+- Business-relevant performance metrics
+
+---
+
+## 🔧 Project Structure
+
+TASK_03/
+│
+├── src/
+│ ├── preprocessing.py
+│ ├── train.py
+│ ├── logisticReg_scratch.py
+│ └── evaluation.py
+│
+├── run.py
+├── README.md
+├── requirements.txt
+└── .gitignore
 
 ## 🔄 Methodology
 
